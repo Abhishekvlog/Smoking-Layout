@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#313236"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_white"
+            android:layout_marginTop="16.66dp"
+            android:layout_marginStart="13.37dp"/>
+        <TextView
+            style="@style/text"
+            android:text="Smoking"
+            android:textColor="@color/white"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="16dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ant_design_home_outlined__1_"
+            android:layout_marginTop="14.96dp"
+            android:layout_marginStart="323dp"/>
+        <TextView
+           style="@style/text"
+            android:text="Punjab 1st in India to Ban Cigarette"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="310dp"/>
+        <TextView
+            style="@style/text"
+            android:text="Your smoke is also bad for other people - they breathe in your smoke secondhand and can get many of the same problem as smokers do. This includes heart disease and lung cancer. Children exposed to secondhand somok have a higher risk of ear infections, colds, pneumonia, bronchitis, and more severe asthma. Mothers who breathe secondhand smoke while pregnant are more likely to have preterm labor and babies with low birth weight."
+            android:layout_marginTop="385dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="680dp"
+            android:background="#313236"/>
+        <TextView
+            style="@style/text"
+            android:text="Published at 12:00 pm"
+            android:textColor="@color/white"
+            android:layout_marginTop="695dp"
+            android:layout_marginStart="16dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="312dp"
+            android:layout_marginStart="20dp"
+            android:background="#E81010"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="236dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cigarette"/>
+
+
+        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_share"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="260dp"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
